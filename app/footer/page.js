@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <footer class="container bg-hero-color text-hero-text p-6">
-      <div class="grid grid-cols-10 pl-16 py-16 pr-14">
-        <div class="p-8 col-span-4 flex flex-col items-start justify-between">
-          <div class="flex flex-col items-start text-sm font-normal w-full leading-loose tracking-widest">
+    <footer className="container bg-hero-color text-hero-text p-6">
+      <div className="grid grid-cols-10 pl-16 py-16 pr-14">
+        <div className="p-8 col-span-4 flex flex-col items-start justify-between">
+          <div className="flex flex-col items-start text-sm font-normal w-full leading-loose tracking-widest">
             <Image
               className="mb-6"
               src={'footerLogo.svg'}
@@ -14,12 +14,12 @@ const Footer = () => {
               width={120}
               height={40}
             />
-            <p class="mb-6 mt-6 leading-15 tracking-wider">
+            <p className="mb-6 mt-6 leading-15 tracking-wider">
               Since its establishment in 2004, Brand has been leading the global market in
               digital dentistry by proposing a new standard for dental imaging solutions
               through state-of-the-art technology.
             </p>
-            <p class="mb-6 leading-15 tracking-wider">
+            <p className="mb-6 leading-15 tracking-wider">
               Brand will continuously grow to provide better products and services through
               outstanding technology and experience.
             </p>
@@ -56,8 +56,8 @@ const Footer = () => {
           </div>
           {/* <div class="bg-cyan-700 w-full">I have copy</div> */}
         </div>
-        <div class="p-6 mt-4 col-span-6 flex flex-col justify-between">
-          <div class="grid grid-cols-3 gap-10 h-full w-full leading-loose tracking-wider">
+        <div className="p-6 mt-4 col-span-6 flex flex-col justify-between">
+          <div className="grid grid-cols-3 gap-10 h-full w-full leading-loose tracking-wider">
             <div>
               <h4 className="text-hero-text text-sm font-semibold mb-2">Who We Are</h4>
               <ul className="text-hero-text text-sm">

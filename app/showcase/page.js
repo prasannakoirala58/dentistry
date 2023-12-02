@@ -5,8 +5,8 @@ const Showcase = () => {
     <div className="flex">
       <div className="flex-1 bg-white">
         {/* Left Part Content goes here */}
-        <div class="flex justify-between py-16 pl-16">
-          <div class="p-8 mx-auto">
+        <div className="flex justify-between py-16 pl-16">
+          <div className="p-8 mx-auto">
             <h1 className="text-4xl font-bold text-hero-text tracking-wider mb-8">
               BRAND<span className="text-face-text italic">Face</span>
             </h1>
@@ -24,7 +24,7 @@ const Showcase = () => {
             </button>
           </div>
 
-          <div class="p-4">
+          <div className="p-4">
             <div className="grid grid-rows-6 gap-6 font-inter text-sm leading-15 tracking-wider">
               <img src="Line 2.svg" alt="Up arrow" />
               <span className="text-sm text-hero-text">01</span>
