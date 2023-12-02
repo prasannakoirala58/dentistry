@@ -1,7 +1,13 @@
 # dentistry
 A Dentist site using NextJS and Tailwind CSS.
 
-<h2>You can visit the app: <a href='https://github.com/prasannakoirala58/dentistry' style='color': #FFFDD0>Here!</a></h2>
+<h2 style="font-family: 'Arial', sans-serif; color: #333; text-align: center;">
+  You can visit the app: 
+  <a href="https://github.com/prasannakoirala58/dentistry" 
+     style="color: #3498db; text-decoration: none; transition: color 0.3s;">
+    Here!
+  </a>
+</h2>
 
 Thanks!
 
